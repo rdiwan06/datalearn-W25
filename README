@@ -1,3 +1,23 @@
-Goals: Use Kaggle Dataset to investigate why males tend to have higher heart attack rates than females. I will investigate factors like cholesterol and smoking habits, correlating them with heart attack risk and gender.
+Heart Attack & Gender Gap Investigation
+Overview:
+This project explores the gender gap in heart attack risk using a real-world health dataset from Kaggle. The primary goal was to investigate why men are more likely to experience heart attacks than women by analyzing biological and lifestyle factors like cholesterol, smoking, and blood pressure.
+
+Phase 1: Data Exploration & Visualization
+1. Cleaned and balanced the dataset to include equal numbers of male and female participants (n = 470 each)
+2. Explored distributions of key features using histograms, box plots, violin plots, and correlation heatmaps
+3. Identified smoking and systolic blood pressure as potential contributors to the gender gap in heart attacks 
+
+Phase 2: Machine Learning
+1. Built two machine learning models to predict heart attack risk:
+    Logistic Regression: Simple and interpretable
+    Random Forest Classifier: More complex and accurate
+2. Evaluated model performance using precision, recall, and F1-score
+    Found that while both models predicted low-risk cases well, the Random Forest model was better at detecting true heart attack cases
+    Feature importance analysis confirmed that smoking and blood pressure were the most influential predictors
+
+Key Findings
+- Men had higher rates of smoking and elevated systolic blood pressure, which aligned with higher heart attack rates
+- These lifestyle factors likely explain much of the gender difference in cardiovascular risk
+- Machine learning can serve as an early-warning tool for predicting heart attack risk and guiding prevention strategies
 
 Kaggle Dataset: https://www.kaggle.com/datasets/shriyashjagtap/heart-attack-risk-assessment-dataset
